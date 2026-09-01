@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 92" width="1000" height="92" role="img" aria-label="Tech stack: Python, PyTorch, Django, DRF, PostgreSQL, MongoDB, Redis, Celery, React, Next.js, Docker, Railway, GitHub Actions, Cloudflare">
+  <title>Tech stack marquee</title>
+
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="9%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="91%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <mask id="edgeMask">
+      <rect width="1000" height="92" fill="url(#fade)"/>
+    </mask>
+
+    <clipPath id="mframe">
+      <rect width="1000" height="92" rx="14"/>
+    </clipPath>
+
+    <!-- One full pass of the stack. Duplicated below for a seamless loop. -->
+    <g id="chips" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
+      <g transform="translate(0,0)">
+        <rect x="0" y="0" width="92" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="46" y="22" text-anchor="middle" fill="#e6edf3">Python</text>
+      </g>
+      <g transform="translate(104,0)">
+        <rect x="0" y="0" width="96" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="48" y="22" text-anchor="middle" fill="#e6edf3">PyTorch</text>
+      </g>
+      <g transform="translate(212,0)">
+        <rect x="0" y="0" width="90" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="45" y="22" text-anchor="middle" fill="#e6edf3">Django</text>
+      </g>
+      <g transform="translate(314,0)">
+        <rect x="0" y="0" width="66" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="33" y="22" text-anchor="middle" fill="#e6edf3">DRF</text>
+      </g>
+      <g transform="translate(392,0)">
+        <rect x="0" y="0" width="112" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="56" y="22" text-anchor="middle" fill="#e6edf3">PostgreSQL</text>
+      </g>
+      <g transform="translate(516,0)">
+        <rect x="0" y="0" width="104" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="52" y="22" text-anchor="middle" fill="#e6edf3">MongoDB</text>
+      </g>
+      <g transform="translate(632,0)">
+        <rect x="0" y="0" width="76" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="38" y="22" text-anchor="middle" fill="#e6edf3">Redis</text>
+      </g>
+      <g transform="translate(720,0)">
+        <rect x="0" y="0" width="84" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="42" y="22" text-anchor="middle" fill="#e6edf3">Celery</text>
+      </g>
+      <g transform="translate(816,0)">
+        <rect x="0" y="0" width="80" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="40" y="22" text-anchor="middle" fill="#e6edf3">React</text>
+      </g>
+      <g transform="translate(908,0)">
+        <rect x="0" y="0" width="88" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="44" y="22" text-anchor="middle" fill="#e6edf3">Next.js</text>
+      </g>
+      <g transform="translate(1008,0)">
+        <rect x="0" y="0" width="88" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="44" y="22" text-anchor="middle" fill="#e6edf3">Docker</text>
+      </g>
+      <g transform="translate(1108,0)">
+        <rect x="0" y="0" width="90" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="45" y="22" text-anchor="middle" fill="#e6edf3">Railway</text>
+      </g>
+      <g transform="translate(1210,0)">
+        <rect x="0" y="0" width="132" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="66" y="22" text-anchor="middle" fill="#e6edf3">GitHub Actions</text>
+      </g>
+      <g transform="translate(1354,0)">
+        <rect x="0" y="0" width="106" height="34" rx="17" fill="#f1c40f" fill-opacity="0.09" stroke="#f1c40f" stroke-opacity="0.35"/>
+        <text x="53" y="22" text-anchor="middle" fill="#e6edf3">Cloudflare</text>
+      </g>
+    </g>
+  </defs>
+
+  <g clip-path="url(#mframe)">
+    <rect width="1000" height="92" fill="url(#mbg)"/>
+
+    <g mask="url(#edgeMask)">
+      <!-- Two copies offset by exactly one pass width (1472) scroll as one, so
+           the seam never shows. -->
+      <g transform="translate(0,29)">
+        <use href="#chips" x="0"/>
+        <use href="#chips" x="1472"/>
+        <animateTransform attributeName="transform" type="translate"
+          from="0 29" to="-1472 29" dur="26s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="91" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+</svg>

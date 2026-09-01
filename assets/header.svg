@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-label="Muhammad Sameer — ML Engineer and Full Stack AI Developer, Berlin">
+  <title>Muhammad Sameer — ML Engineer &amp; Full Stack AI Developer</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="55%" stop-color="#0a0f1c"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="50%" stop-color="#ffe27a"/>
+      <stop offset="100%" stop-color="#f1c40f"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f1c40f" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f1c40f" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f1c40f" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-1 0; 1 0; -1 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f1c40f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#f1c40f" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2f81f7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2f81f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1000" height="260" rx="16"/>
+    </clipPath>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <rect width="1000" height="260" fill="url(#grid)"/>
+
+    <!-- drifting ambient light -->
+    <ellipse cx="220" cy="70" rx="300" ry="180" fill="url(#glowA)">
+      <animate attributeName="cx" values="220;420;220" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;140;70" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="820" cy="200" rx="320" ry="190" fill="url(#glowB)">
+      <animate attributeName="cx" values="820;620;820" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="200;110;200" dur="13s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- neural graph, left -->
+    <g stroke="#f1c40f" stroke-opacity="0.30" stroke-width="1" fill="none">
+      <path d="M70 150 L128 108 L188 146 L246 104"/>
+      <path d="M70 150 L128 190 L188 146"/>
+      <path d="M128 108 L128 190"/>
+      <path d="M188 146 L246 188"/>
+    </g>
+    <g fill="#f1c40f">
+      <circle cx="70" cy="150" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="128" cy="108" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" begin="0.35s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" begin="0.35s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="128" cy="190" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" begin="0.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="188" cy="146" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" begin="1.05s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.05s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="246" cy="104" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="246" cy="188" r="4">
+        <animate attributeName="r" values="4;6.5;4" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.55;1;0.55" dur="2.6s" begin="1.75s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- signal pulses travelling the graph -->
+    <circle r="3" fill="#ffe27a">
+      <animateMotion path="M70 150 L128 108 L188 146 L246 104" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#ffe27a">
+      <animateMotion path="M70 150 L128 190 L188 146 L246 188" dur="3.2s" begin="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="1.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- name -->
+    <text x="330" y="104" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif"
+          font-size="52" font-weight="800" letter-spacing="-1" fill="#ffffff">
+      Muhammad Sameer
+      <animate attributeName="opacity" values="0;1" dur="0.9s" fill="freeze"/>
+    </text>
+
+    <!-- accent rule under name -->
+    <rect x="330" y="120" width="0" height="3" rx="1.5" fill="url(#accent)">
+      <animate attributeName="width" values="0;332" dur="1.1s" begin="0.5s" fill="freeze"
+        calcMode="spline" keySplines="0.22 1 0.36 1" keyTimes="0;1"/>
+    </rect>
+    <rect x="330" y="120" width="332" height="3" rx="1.5" fill="url(#sweep)" opacity="0.9"/>
+
+    <!-- rotating role line -->
+    <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f1c40f">
+      <text x="330" y="160">
+        ML Engineer
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+      <text x="330" y="160">
+        Full Stack AI Developer
+        <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+      <text x="330" y="160">
+        MSc Data Science · Berlin
+        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- blinking caret beside the role line -->
+    <rect x="318" y="144" width="3" height="20" fill="#f1c40f">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- subtitle -->
+    <text x="330" y="196" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif"
+          font-size="15" fill="#8b949e">
+      Python · PyTorch · Django · LLM systems · Data pipelines
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="1.4s" fill="freeze"/>
+    </text>
+
+    <!-- status pill -->
+    <g>
+      <rect x="330" y="214" width="196" height="26" rx="13"
+            fill="#f1c40f" fill-opacity="0.10" stroke="#f1c40f" stroke-opacity="0.45"/>
+      <circle cx="348" cy="227" r="4" fill="#3fb950">
+        <animate attributeName="fill-opacity" values="1;0.35;1" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="348" cy="227" r="4" fill="#3fb950" filter="url(#soft)">
+        <animate attributeName="r" values="4;10;4" dur="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="fill-opacity" values="0.6;0;0.6" dur="1.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="362" y="232" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif"
+            font-size="13" font-weight="600" fill="#c9d1d9">Open to opportunities</text>
+      <animate attributeName="opacity" values="0;1" dur="0.9s" begin="1.8s" fill="freeze"/>
+    </g>
+
+    <!-- code bracket motif, right -->
+    <g stroke="#f1c40f" stroke-opacity="0.5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M830 96 L806 130 L830 164">
+        <animate attributeName="stroke-opacity" values="0.25;0.75;0.25" dur="3.4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M900 96 L924 130 L900 164">
+        <animate attributeName="stroke-opacity" values="0.25;0.75;0.25" dur="3.4s" begin="0.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M876 88 L854 172" stroke-opacity="0.35">
+        <animate attributeName="stroke-opacity" values="0.15;0.55;0.15" dur="3.4s" begin="1s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- top and bottom hairlines -->
+    <rect x="0" y="0" width="1000" height="2" fill="url(#sweep)"/>
+    <rect x="0" y="258" width="1000" height="2" fill="url(#sweep)" opacity="0.6"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="999" height="259" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+</svg>
