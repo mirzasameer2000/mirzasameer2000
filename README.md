@@ -4,10 +4,15 @@
 
 <br/>
 
-<a href="https://www.muhammadsameer.de"><img src="https://img.shields.io/badge/Portfolio-muhammadsameer.de-f1c40f?style=for-the-badge&logoColor=black" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/mirzasameerbaig99/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://www.xing.com/profile/Muhammad_Sameer033677"><img src="https://img.shields.io/badge/Xing-006567?style=for-the-badge&logo=xing&logoColor=white" alt="Xing" /></a>
-<a href="mailto:sameermubasher99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://www.muhammadsameer.de"><img src="https://img.shields.io/badge/muhammadsameer.de-f1c40f?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=f1c40f" alt="Portfolio — muhammadsameer.de" height="34" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/mirzasameerbaig99/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="34" /></a>
+&nbsp;
+<a href="https://www.xing.com/profile/Muhammad_Sameer033677"><img src="https://img.shields.io/badge/Xing-006567?style=for-the-badge&logo=xing&logoColor=white&labelColor=006567" alt="Xing" height="34" /></a>
+&nbsp;
+<a href="mailto:sameermubasher99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Email" height="34" /></a>
+&nbsp;
+<a href="https://github.com/mirzasameer2000?tab=repositories"><img src="https://img.shields.io/badge/Repositories-161B22?style=for-the-badge&logo=github&logoColor=white&labelColor=161B22" alt="Repositories" height="34" /></a>
 
 </div>
 
@@ -46,52 +51,83 @@ class MuhammadSameer:
 
 ## Experience
 
-<details>
-<summary><b>AI Agency</b> — Full Stack AI Developer &nbsp;·&nbsp; <i>Jan 2026 — Present</i></summary>
+<details open>
+<summary><b>&nbsp;AI Agency</b> &nbsp;—&nbsp; Full Stack AI Developer &nbsp;&nbsp;<code>Jan 2026 — Present</code></summary>
 
 <br/>
 
-**Budapest, Hungary · Remote**
+<table>
+<tr>
+<td width="130"><b>Location</b></td>
+<td>Budapest, Hungary &nbsp;·&nbsp; Remote</td>
+</tr>
+<tr>
+<td><b>Focus</b></td>
+<td>Legal tech platform · Delivery leadership · Infrastructure</td>
+</tr>
+</table>
 
-Full stack contributor on the company's main legal platform, and lead developer on a new Hungarian legal PWA.
+**Full stack — legal platform**
 
-- Built a full **contract lifecycle system** — filters, draft flow, chat, review and acceptance, witness handling, per-party signing (DocuSign, eSigno), expiry, versioning, and a complete audit log
-- Integrated **Számlázz.hu** e-invoicing end to end: draft/confirm lifecycle, three billing scenarios, WeasyPrint PDF invoices, and NAV tax reporting
-- Built **file conversion services** — HTML→PDF via Playwright, PDF→DOCX via LibreOffice, running in Railway containers
-- **Lead developer** on a new legal PWA: own the delivery pipeline, sprints, code review, and deploys
-- Define backend architecture and API contracts for ID card OCR, Deal Room, and an AI Term Sheet Generator
-- Deployed and stabilized the platform on **Railway** — custom domains, PostgreSQL, Redis, MongoDB Atlas, Celery, Cloudflare R2, Mailgun
+- Built a complete **contract lifecycle system** — filters, draft flow, chat, review and acceptance, witness handling, per-party signing (DocuSign, eSigno), expiry, versioning, and a full audit log
+- Integrated **Számlázz.hu** e-invoicing end to end: draft/confirm lifecycle, three billing scenarios, WeasyPrint PDF invoices, NAV tax reporting
+- **File conversion services** — HTML→PDF via Playwright, PDF→DOCX via LibreOffice, running in Railway containers
+- React frontend for contract review, signing modals, timeline, and notifications, with bilingual EN/HU handling
+
+**Lead developer — new legal PWA**
+
+- Coordinate a small team of backend and frontend developers
+- Own the delivery pipeline: Trello tickets across sprints, milestones, code review, deploys
+- Define backend architecture, API contracts, and integration patterns for **ID card OCR**, **Deal Room**, and an **AI Term Sheet Generator**
+
+**DevOps**
+
+- Deployed and stabilized on **Railway** — custom domains, PostgreSQL, Redis, MongoDB Atlas, Celery, Cloudflare R2, Mailgun
 - Automated **Electron** desktop builds via GitHub Actions matrix (Windows, macOS, Linux)
 
-`Python` `Django` `DRF` `PostgreSQL` `MongoDB` `Redis` `Celery` `React` `Vite` `Railway` `GitHub Actions`
+<sub>`Python` · `Django` · `DRF` · `PostgreSQL` · `MongoDB` · `Redis` · `Celery` · `React` · `Vite` · `Railway` · `Cloudflare R2` · `GitHub Actions`</sub>
 
 </details>
 
 <details>
-<summary><b>Della.hu</b> — Django Backend Developer &nbsp;·&nbsp; <i>Sep 2024 — Dec 2025</i></summary>
+<summary><b>&nbsp;Della.hu</b> &nbsp;—&nbsp; Django Backend Developer &nbsp;&nbsp;<code>Sep 2024 — Dec 2025</code></summary>
 
 <br/>
 
-**Budapest, Hungary · Remote**
+<table>
+<tr>
+<td width="130"><b>Location</b></td>
+<td>Budapest, Hungary &nbsp;·&nbsp; Remote</td>
+</tr>
+<tr>
+<td><b>Focus</b></td>
+<td>AI orchestration · Backend APIs · Data pipelines</td>
+</tr>
+</table>
 
 Primary developer on the AI division of a student employment platform.
 
-- Built a **unified backend proxy** integrating 10+ AI providers — OpenAI, Gemini, Google Veo 2/3, ElevenLabs, Runway, Suno, Midjourney, Ideogram, Bitstudio, Tengr.ai — with shared logging, throttling, and admin/user endpoints
+- **Unified backend proxy** integrating 10+ AI providers — OpenAI, Gemini, Google Veo 2/3, ElevenLabs, Runway, Suno, Midjourney, Ideogram, Bitstudio, Tengr.ai — with shared logging, throttling, and admin/user endpoints
 - RESTful APIs with authentication, input validation, and consistent error handling across every integration
 - **Celery** async tasks and background workers for long-running AI generation jobs, with retry and rate-limit guards
 - Mini **ETL pipelines** with Pandas and SQLAlchemy for ingestion and modeling
 - Twilio SMS and Mailgun email flows; MongoDB Atlas for logging and analytics
 
-`Python` `Django` `DRF` `PostgreSQL` `MongoDB` `Redis` `Celery` `Pandas` `SQLAlchemy`
+<sub>`Python` · `Django` · `DRF` · `PostgreSQL` · `MongoDB` · `Redis` · `Celery` · `Pandas` · `SQLAlchemy`</sub>
 
 </details>
 
 <details>
-<summary><b>Digital Billing Services</b> — IT Support Intern &nbsp;·&nbsp; <i>Sep 2022 — Dec 2022</i></summary>
+<summary><b>&nbsp;Digital Billing Services</b> &nbsp;—&nbsp; IT Support Intern &nbsp;&nbsp;<code>Sep 2022 — Dec 2022</code></summary>
 
 <br/>
 
-**Lahore, Pakistan · On-site**
+<table>
+<tr>
+<td width="130"><b>Location</b></td>
+<td>Lahore, Pakistan &nbsp;·&nbsp; On-site</td>
+</tr>
+</table>
 
 - Excel-based operational reporting and documentation
 - Troubleshooting support for software, connectivity, and setup issues
@@ -135,12 +171,11 @@ Primary developer on the AI division of a student employment platform.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=mirzasameer2000&show_icons=true&hide_border=true&bg_color=0D1117&title_color=f1c40f&icon_color=f1c40f&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mirzasameer2000&layout=compact&hide_border=true&bg_color=0D1117&title_color=f1c40f&text_color=c9d1d9&langs_count=8" alt="Top languages" />
+<img src="./assets/stats.svg" alt="GitHub activity — contributions, commits, repositories, and language breakdown" width="100%" />
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mirzasameer2000&bg_color=0D1117&color=c9d1d9&line=f1c40f&point=ffffff&area=true&hide_border=true" alt="Contribution activity" width="98%" />
+<img src="https://streak-stats.demolab.com?user=mirzasameer2000&hide_border=true&background=0D1117&stroke=f1c40f&ring=f1c40f&fire=f1c40f&currStreakLabel=f1c40f&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="Contribution streak" width="70%" />
 
 </div>
 

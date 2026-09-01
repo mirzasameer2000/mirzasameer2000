@@ -117,25 +117,48 @@
     </rect>
     <rect x="330" y="120" width="332" height="3" rx="1.5" fill="url(#sweep)" opacity="0.9"/>
 
-    <!-- rotating role line -->
+    <!-- Rotating role line. Each role holds, then cross-fades while sliding up
+         a few px; keyTimes are staggered by exactly 1/3 of the cycle so only
+         one line is ever visible and the hand-off is smooth rather than a snap. -->
     <g font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#f1c40f">
-      <text x="330" y="160">
-        ML Engineer
-        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-      </text>
-      <text x="330" y="160">
-        Full Stack AI Developer
-        <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-      </text>
-      <text x="330" y="160">
-        MSc Data Science · Berlin
-        <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-      </text>
+      <g>
+        <text x="330" y="160">ML Engineer</text>
+        <animate attributeName="opacity"
+          values="0;1;1;0;0;0;0;0;0;0;0;0"
+          keyTimes="0;0.04;0.28;0.33;0.36;0.60;0.66;0.69;0.94;0.97;0.99;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 8; 0 0; 0 0; 0 -8; 0 8; 0 8; 0 8; 0 8; 0 8; 0 8; 0 8; 0 8"
+          keyTimes="0;0.04;0.28;0.33;0.36;0.60;0.66;0.69;0.94;0.97;0.99;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="330" y="160">Full Stack AI Developer</text>
+        <animate attributeName="opacity"
+          values="0;0;0;0;1;1;0;0;0;0;0;0"
+          keyTimes="0;0.04;0.28;0.33;0.37;0.61;0.66;0.69;0.94;0.97;0.99;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 8; 0 8; 0 8; 0 8; 0 0; 0 0; 0 -8; 0 8; 0 8; 0 8; 0 8; 0 8"
+          keyTimes="0;0.04;0.28;0.33;0.37;0.61;0.66;0.69;0.94;0.97;0.99;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+      </g>
+      <g>
+        <text x="330" y="160">MSc Data Science · Berlin</text>
+        <animate attributeName="opacity"
+          values="0;0;0;0;0;0;0;1;1;0;0;0"
+          keyTimes="0;0.04;0.28;0.33;0.37;0.61;0.66;0.70;0.94;0.99;0.995;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate"
+          values="0 8; 0 8; 0 8; 0 8; 0 8; 0 8; 0 8; 0 0; 0 0; 0 -8; 0 8; 0 8"
+          keyTimes="0;0.04;0.28;0.33;0.37;0.61;0.66;0.70;0.94;0.99;0.995;1"
+          dur="13.5s" begin="1.1s" repeatCount="indefinite"/>
+      </g>
     </g>
 
     <!-- blinking caret beside the role line -->
     <rect x="318" y="144" width="3" height="20" fill="#f1c40f">
-      <animate attributeName="opacity" values="1;1;0;0;1" dur="1.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/>
     </rect>
 
     <!-- subtitle -->
