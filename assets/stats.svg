@@ -23,7 +23,7 @@
     <rect width="1000" height="260" fill="url(#sgrid)"/>
 
     <text x="32" y="40" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f1c40f" letter-spacing="1.6">GITHUB ACTIVITY</text>
-    <text x="968" y="40" text-anchor="end" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">3 followers · updated daily</text>
+    <text x="968" y="40" text-anchor="end" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif" font-size="12" fill="#8b949e">4 followers · updated daily</text>
 
     
     <g transform="translate(32,64)">
